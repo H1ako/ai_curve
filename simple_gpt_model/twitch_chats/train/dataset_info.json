@@ -1,0 +1,66 @@
+{
+  "builder_name": "webdataset",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "cs415-twitch-chats",
+  "dataset_size": 2408123,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/BinghamtonUniversity/cs415-twitch-chats@6096ca7593a156d94d7ad88d2670abaf2dd9f00e/twitch_chats.tar.gz": {
+      "num_bytes": 765599,
+      "checksum": null
+    }
+  },
+  "download_size": 765599,
+  "features": {
+    "__key__": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "__url__": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "json": [
+      {
+        "chat": [
+          {
+            "author": {
+              "dtype": "string",
+              "_type": "Value"
+            },
+            "message": {
+              "dtype": "string",
+              "_type": "Value"
+            },
+            "toxic": {
+              "dtype": "int64",
+              "_type": "Value"
+            }
+          }
+        ],
+        "transcript": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      }
+    ]
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 3173722,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 2408123,
+      "num_examples": 1,
+      "dataset_name": "cs415-twitch-chats"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

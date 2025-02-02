@@ -1,0 +1,38 @@
+{
+  "builder_name": "text",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "twitch_chat_mini_example",
+  "dataset_size": 71307,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/Guvenc/twitch_chat_mini_example@1ef626dcff1b93ace39a0c76ca748d67663bfd3a/dataset.txt": {
+      "num_bytes": 67074,
+      "checksum": null
+    }
+  },
+  "download_size": 67074,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 138381,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 71307,
+      "num_examples": 1411,
+      "dataset_name": "twitch_chat_mini_example"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
